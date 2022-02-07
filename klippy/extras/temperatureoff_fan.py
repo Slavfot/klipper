@@ -128,7 +128,7 @@ class ControlBangBang:
               and temp <= target_temp-self.max_delta):
             self.heating = True
         if self.heating:
-            self.temperatureoff_fan.set_speed(read_time, self.temperatureoff_fan.get_max_speed().)
+            self.temperatureoff_fan.set_speed(read_time, self.temperatureoff_fan.get_max_speed())
         else:
             self.temperatureoff_fan.set_speed(read_time,
                                            0)
